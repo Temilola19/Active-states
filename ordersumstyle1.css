@@ -1,0 +1,85 @@
+body{
+	background-image: url("pattern-background-desktop.svg");
+	text-align: center;
+}
+
+
+.plan{
+	border: 20px solid #f2f3f4;
+	width: 350px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #f2f3f4; 
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+   flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+	
+
+}
+.plan1{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	
+}
+.order{
+	background-color: white;
+	margin-left: 450px;
+	margin-right: 433px;
+	border-radius: 20px;
+}
+p1{
+	text-align: justify;
+	font-size: 16px;
+	color:grey;
+}
+button1{
+	background-color: #4422ee;
+	border: none;
+	color: white;
+	padding: 10px 29px;
+	text-align: center;
+	border-radius: 10px;
+	width: 300px;
+	display: inline-block;
+	box-shadow: 0px 8px 15px gray;
+    cursor: pointer;
+}
+button2{
+	background-color: white;
+	border: white;
+     color: gray;
+     cursor: pointer;
+}
+
+button1:hover {
+	background-color: #7b68ee;
+	color: white;
+	cursor: pointer;
+}
+button2:hover {
+	background-color: white;
+	border: white;
+	color: black;
+	cursor: pointer;
+}
+p3{
+	display: flex;
+	text-align:center;
+}
+.fee{
+	color: gray;
+}
+a{
+	color: #4422ee;
+	font-weight: bold;
+}
+a:hover{
+	color: #7b68ee;
+	text-decoration: none;
+}
+.three{justify-content: space-between;}
